@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="reset display.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" type="text/css" href="burgermenu.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>autourduson</title>
+</head>
+
+<body>
+	<nav role="navigation">
+  		<div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+   			<input type="checkbox" />
+    
+    <!--
+    Some spans to act as a hamburger. -->
+    <span></span>
+    <span></span>
+    <span></span>
+			<ul id="menu">
+			  <a href="index.html"><li>Accueil</li></a>
+			<a href="quisuisje.html"><li>Qui suis-je ?</li></a>
+			  <a href="projets.html"><li>Projets</li></a>
+			 
+			</ul>
+  		</div>
+	</nav>
+	
+	<div class="contenu">
+		<img id="galactique" src="../IMAGES/GALACTIQUE.jpg" alt="galactique"/>
+		<h1>AUTOUR DU SON</h1>
+		<br>
+		<iframe id="soundcloud" width="15%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/637680819&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+		<div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
+		<p class="p1">
+			Passionné de cinéma et de musique depuis tout petit, j'entretiens un lien puissant entre les images et le son. <br>
+			Isssu d'une famille de professionnels du milieu et d'artistes, j'ai très vite développé un intérêt particulier pour la création sonore.
+		</p> <br> <br>
+		<p class="p2">
+			Du groupe de rock à la production électronique, des projets personnels aux besoins professionnels, j'aime travailler le son sous tous ses aspects. Cette pratique rythme mon quotidien depuis des années. C'est une base technique et artistique solide qui constitue un apport considérable quant à la vision que je développe sur la création de contenu multimédia.
+		</p>
+		<iframe id="clip" width="700" height="600" src="https://www.youtube.com/embed/q9X8TZ8ZjME" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+</body>
+</html>
